@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &312203764785083329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312203764785083331}
+  - component: {fileID: 312203764785083328}
+  m_Layer: 0
+  m_Name: NetworkDicksGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312203764785083331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312203764785083329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.6129355, y: -1.5961094, z: -4.4525824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312203764785083328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312203764785083329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304b102ba70593a4e9726303f8695bde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BiasData: 1
+  NeuronCount: 
+  BiasNeuron: 
+  SynapsisRange: 10
+  TopCount: 5
+  DicksCount: 50
+  DicksPrefab: {fileID: 8297912874453070904, guid: 5fa6eb68123ece144b59d58ca79fdc09,
+    type: 3}
+  NetworkDicks: []
+  NetworkStartDick: []
+  TopNetworkStartDick: []
+  LearningTimeSec: 30
+  Generation: 0
